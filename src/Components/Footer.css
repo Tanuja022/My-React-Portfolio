@@ -1,0 +1,22 @@
+.F-content{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    padding: 1px 0px;
+}
+
+.f-para{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.icons-footer{
+        margin: 12px 600px;
+        /* padding: 12px 3px; */
+}
+#github1{
+    color: white;
+}
+#link1{
+    color: white;
+}

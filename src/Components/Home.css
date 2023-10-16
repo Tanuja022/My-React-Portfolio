@@ -1,0 +1,118 @@
+.container{
+    height: 100vh;
+    max-width: 100%;
+    background-color: gainsboro;
+    padding: 1px;
+    overflow: hidden;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+li{
+    text-decoration: none;
+    margin: 10px 3px;
+    list-style-type: none;
+}
+.navbar a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+    margin: 2px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+a:hover{
+    color: blue;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+
+.Name-details{
+    margin: 2rem 1rem;
+    padding: 3rem 18rem;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 28px;
+}
+/* #name{
+    font-family: 'Dancing Script';
+} */
+
+
+
+h1{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.App{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#abc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.icons-apply{
+    display: flex;
+    padding: 0px 336px;
+    justify-content: center;
+}
+
+#github{
+    margin: 0px 11px;
+    /* padding: 12px 3px; */
+    color: black;
+}
+#link{
+    color: black;
+}
+#github:hover{
+    color: blue;
+}
+#link:hover{
+    color: blue;
+}
+
+
+/* responsive */
+
+@media (max-width:600px) {
+    .navbar{
+        
+        height: 9vh;
+    }
+    .navbar a{
+        font-size: 13px;
+    }
+    .Name-details{
+        margin: 5rem 0rem;
+    padding: 1px 2px;
+    }
+    .icons-apply{
+        padding: 3px 0px;
+    }
+    .App{
+        font-size: 18px;
+    }
+    #abc{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,51 @@
+.s-content{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(248, 241, 246);
+    display: flex;
+}
+#s-heading{
+    margin: 0px 33rem  ;
+    padding: 40px ;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+/* .s-box{
+    height: 20vh;
+    width: 30%;
+    margin: 12px 30rem;
+    background-color: white;
+    display: flex;
+    
+} */
+.s-box{
+    height: 20vh;
+    width: 47%;
+    /* margin: 12px 30rem; */
+    padding:12px 330px;
+    
+}
+.s-icon{
+    display: flex;
+    justify-content: center;
+    padding: 12px 8px;
+}
+
+@media (max-width:600px) {
+    .s-content{
+        height: 47vh;
+    }
+    .s-myskills{
+        margin: 0rem -25rem;
+    }
+    #s-heading{
+        font-size: 26px;
+    }
+    .s-box{
+        width: 35%;
+    padding: 0px 395px;
+    }
+    
+}

@@ -1,0 +1,43 @@
+.c-content{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(225, 250, 235);
+    padding: 1px;
+}
+.c-form{
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    height: 35px;
+    width: 32%;
+    margin: 4px 420px;
+    padding: 2px 11px;
+    border: 1px solid #e3d5d0;
+}
+.c-heading{
+    padding: 18px 10px;
+}
+.btn{
+    height: 40px;
+    width: 10%;
+    margin: 10px 550px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 12px;
+}
+.c-icons{
+    margin: 2rem 30rem;
+    padding: 5px 1px;
+}
+#cnum{
+    padding: 0px 9px;
+
+}
+#ename{
+    padding: 0px 9px;
+
+}
