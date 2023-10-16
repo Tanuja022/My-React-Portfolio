@@ -19,7 +19,7 @@ const Project = () => {
           <p className='p-desc'>Technologies: React JS | Html | CSS | JavaScript | .</p>
           <div className='icons-project'>
           <span id='code'>code</span>
-        <a href='https://github.com/Tanuja022'>
+        <a href='https://github.com/Tanuja022/My-React-Portfolio'>
               <FiGithub id='github' size={30}/>
           </a>
           
