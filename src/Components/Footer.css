@@ -1,5 +1,5 @@
 .F-content{
-    height: 15vh;
+    height: 20vh;
     width: 100%;
     background-color: black;
     padding: 1px 0px;
@@ -9,6 +9,7 @@
     color: white;
     font-size: 15px;
     text-align: center;
+    margin: 3px 3px;
 }
 .icons-footer{
         margin: 12px 600px;

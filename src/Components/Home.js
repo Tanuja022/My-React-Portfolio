@@ -1,51 +1,31 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Home.css'
-import Typed from 'typed.js';
+
 import { FiGithub} from "react-icons/fi";
 import {FiLinkedin} from "react-icons/fi";
 
 const Home = () => {
-  const el = React.useRef(null);
-
-  useEffect(() => {
-    // console.log("I'm in effect.")
-    const typed = new Typed(el.current, {
-      strings: ['<i>React Js</i> Devloper.', '<i>Javascript</i> Devloper.','<i>Web</i> Devloper.'],
-      typeSpeed: 50,
-      loop: {Infinity}
-    });
-
-    return () => {
-      // Destroy Typed instance during cleanup to stop animation
-      console.log("I'm in cleaner.")
-      typed.destroy();
-    };
-  }, []);
-
-  return (
+return (
     <>
+   
     <div className='container' id='home'>
-
-        <nav className='navbar'>
-            
-            <li><a href='#home'>Home</a></li>
-            <li><a href='#about'>About</a></li>
-            <li><a href='#skills'>Skills</a></li>
-            <li><a href='#projects'>Project</a></li>
-            <li><a href='#contact'>Contact</a></li>
-        </nav>
-
+        <div className='navdiv'>
+            <nav className='navbar'>
+                
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#skills'>Skills</a></li>
+                <li><a href='#projects'>Project</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </nav>
+        </div>
 
         <div className='Name-details'>
-            <h1><span id='name'>Tanuja Kavilkar</span></h1>
-            <h3>I am a passionate IT fresher.</h3>
-
-            <div className="App">
-                 <span id='abc'>Interested In </span> 
-                 <span ref={el} />
-            </div>
-
+            <h1><span id='name'>Tanuja<span style={{color:"blue", fontSize:"70px"}}>{" "}Kavilkar</span> </span></h1>
+            <h3>IT Graduate with a passion for technology eager to contribute skills in Web devlopment, Javascript devlopment, React js devlopment.</h3>
+           
         </div>
+
         <div className='icons-apply'>
         <a href='https://github.com/Tanuja022'>
               <FiGithub id='github' size={30}/>
@@ -63,4 +43,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

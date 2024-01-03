@@ -1,51 +1,58 @@
 .s-content{
-    height: 60vh;
+    height: 0vh;
     width: 100%;
-    background-color: rgb(248, 241, 246);
     display: flex;
 }
-#s-heading{
-    margin: 0px 33rem  ;
-    padding: 40px ;
+
+
+#skill{
+    margin: 3rem 37rem;
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col1{
+    height: 0rem;
+    width: 60%;
+    /* border: 1px solid black; */
+    margin: 37px 270px;
+    display: flex;
+    padding: 8px 7px;
+}
+
+
+
+button{
+    height: 61px;
+    width: 214px;
+    /* padding: 2px 3px; */
+    background-color: crimson;
+    gap: 2px;
+    margin: 2px 4px;
+    color: white;
+    font-size: 19px;
+    border: none;
     font-weight: bold;
-    
+    border-radius: 13px;   
 }
 
-/* .s-box{
-    height: 20vh;
-    width: 30%;
-    margin: 12px 30rem;
-    background-color: white;
+.col2{
+    height: 252px;
+    width: 60%;
+    /* border: 1px solid black; */
+    margin: -35px 270px;
     display: flex;
-    
-} */
-.s-box{
-    height: 20vh;
-    width: 47%;
-    /* margin: 12px 30rem; */
-    padding:12px 330px;
-    
-}
-.s-icon{
-    display: flex;
-    justify-content: center;
-    padding: 12px 8px;
+    padding: 7px 7px;
+
 }
 
-@media (max-width:600px) {
-    .s-content{
-        height: 47vh;
-    }
-    .s-myskills{
-        margin: 0rem -25rem;
-    }
-    #s-heading{
-        font-size: 26px;
-    }
-    .s-box{
-        width: 35%;
-    padding: 0px 395px;
-    }
-    
+.btn2{
+    height: 61px;
+    width: 166px;
+    /* padding: 2px 3px; */
+    gap: 2px;
+    margin: 2px 3px;
+    color: white;
+    font-size: 19px;
+    animation: glowing 1300ms infinite;
 }
+
